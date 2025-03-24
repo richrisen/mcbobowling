@@ -28,7 +28,7 @@ main {
 /* Navbar Styles */
 
 .navbar{
-    background-color: #eee6e5;
+    background-color: #f8eeec;
 }
 
 .navbar-brand img{
@@ -100,15 +100,28 @@ main {
 
 /* Conocenos Page */
 
+.mission-vision-container div{
+    background-color: #dfd6b5;
+}
+
+.main-conocenos{
+    color: #283e52;
+    background: url('img/bolera-fondo-desenfocado.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 .conocenos-container img{
     width: 100%;
     max-width: 400px;
     height: auto;
 }
 
+.team-member{
+    padding: 0;
+}
+
 .team-member img{
     width: 100%;
-    max-width: 400px;
     height: auto;
 }
 
@@ -127,6 +140,9 @@ main {
 
 /* Servicios Page */
 
+.services-hero{
+    background-color: #beb48d;
+}
 
 
 /* Contacto Page */
