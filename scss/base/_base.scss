@@ -1,0 +1,22 @@
+@use "../global/variables" as*;
+@use "../global/mixin" as*;
+
+body {
+    min-height: 100vh;
+    padding-top: 93px;
+    background-color: $primary-bg;
+    font-family: 'Roboto', sans-serif;
+    @include flex-column; 
+  }
+  
+  main {
+    h1, h2, h3{
+      color: $title-color;
+    }
+    flex: 1;
+  }
+  
+  .btn{
+    background-color: #275e5c;
+    border: none;
+}

@@ -1,0 +1,16 @@
+@use "./base/reset";
+@use "./base/base";
+
+@use "./global/variables";
+@use "./global/mixin";
+@use "./global/extend";
+
+@use "./components/navbar";
+
+
+@use "./pages/index";
+@use "./pages/conocenos";
+@use "./pages/productos";
+@use "./pages/servicios";
+@use "./pages/contactanos";
+

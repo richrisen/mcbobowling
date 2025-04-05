@@ -1,0 +1,13 @@
+@use "../global/variables" as*;
+
+main{
+    .services-hero{
+        background-color: $secondary-bg;
+    }
+
+    .pricing-section{
+        .card{
+            background-color: $secondary-bg;
+        }        
+    }
+}

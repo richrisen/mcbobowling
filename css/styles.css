@@ -1,149 +1,110 @@
-/* General Styles */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-body{
-    min-height: 100vh;
-    padding-top: 93px;
-    background-color: #f8eeec;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  padding-top: 93px;
+  background-color: #FDFDFD;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-    flex: 1;
+  flex: 1;
+}
+main h1, main h2, main h3 {
+  color: #283e52;
 }
 
-.btn{
-    background-color: #275e5c;
-    border: none;
+.btn {
+  background-color: #275e5c;
+  border: none;
 }
 
-/* Navbar Styles */
-
-.navbar{
-    background-color: #f8eeec;
+.navbar {
+  background-color: #FBF5DF;
 }
-
-.navbar-brand img{
-    width: 100px; height: auto;
+.navbar .navbar-brand {
+  font-size: 1.6rem;
 }
-
-.navbar-brand{
-    font-size: 1.6rem;
-}
-
-.navbar-nav{
-    font-size: 1.2rem;
-}
-
-.nav-item{
-    padding: 0 1rem;
-}
-
 @media (max-width: 390px) {
-    .navbar-brand {
-        font-size: 1.3rem;
-    }
-
-
+  .navbar .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+.navbar img {
+  width: 100px;
+  height: auto;
 }
 
-/* Index Page */
-
-/* Main  Styles */
-
-.hero-container{
-    background-color: #faf2f2b6;
+.navbar-nav {
+  font-size: 1.2rem;
+}
+.navbar-nav .nav-item {
+  padding: 0 1rem;
 }
 
-.hero-text{
-    color: #283e52;
+.hero-container {
+  background-color: #FAF9F6;
+}
+.hero-container .hero-text {
+  color: #283e52;
+}
+.hero-container .hero-text .hero-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.hero-container .hero-text .hero-paragraph {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
 }
 
-.hero-title{ 
-    text-align: center;
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+.products-section {
+  background-color: #beb48d;
+  font-weight: bold;
+}
+.products-section .products-title {
+  font-size: 2.5rem;
+  color: #283e52;
 }
 
-.hero-paragraph{
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.6;
-    color: #555;
-    text-align: justify;
+.main-conocenos .conocenos-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.main-conocenos .mission-vision-container .card {
+  background-color: #dfd6b5;
+}
+.main-conocenos .team-section .team-member {
+  padding: 0;
+}
+.main-conocenos .team-section .team-member img {
+  width: 100%;
+  height: auto;
 }
 
-/* Product Section Styles */
-
-.products-section{
-    background-color: #beb48d;
-    font-weight: bold;
+main .carousel {
+  width: 300px;
+}
+main .carousel-item {
+  background-color: #adacb1;
 }
 
-.products-title{
-    font-size: 2.5rem;
+main .services-hero {
+  background-color: #beb48d;
+}
+main .pricing-section .card {
+  background-color: #beb48d;
 }
 
-
-.card{
-    background-color: #f8eeec;
-}
-
-/* Conocenos Page */
-
-.mission-vision-container div{
-    background-color: #dfd6b5;
-}
-
-.main-conocenos{
-    color: #283e52;
-    background: url('img/bolera-fondo-desenfocado.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-.conocenos-container img{
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
-
-.team-member{
-    padding: 0;
-}
-
-.team-member img{
-    width: 100%;
-    height: auto;
-}
-
-
-
-/* Productos page */
-
-.carousel{
-    width: 300px;
-}
-
-.carousel-item{
-   background-color:#adacb1 ; 
-}
-
-
-/* Servicios Page */
-
-.services-hero{
-    background-color: #beb48d;
-}
-
-
-/* Contacto Page */
-
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin responsive-font($desktop, $mobile) {
+    font-size: $desktop;
+    @media (max-width: 390px) {
+      font-size: $mobile;
+    }
+  }
