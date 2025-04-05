@@ -1,4 +1,5 @@
 @use "../global/variables" as*;
+@use "../global/extend" as*;
 
 .hero-container {
     background-color: #FAF9F6;
@@ -7,10 +8,9 @@
       color: $title-color;
   
       .hero-title {
+        @extend %title-style; 
         text-align: center;
         font-size: 3.5rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
       }
   
       .hero-paragraph {
@@ -30,7 +30,7 @@
 
     .products-title{
         font-size: 2.5rem;
-        color: $title-color;
+        @extend %title-style; 
     }
 
 }

@@ -1,5 +1,7 @@
+@use "../global/variables" as*;
+
 %title-style {
-    color: #283e52;
+    color: $title-color;
     font-weight: bold;
     margin-bottom: 1rem;
-}
+  }
