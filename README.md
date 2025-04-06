@@ -13,6 +13,8 @@
 
 El sitio fue creado con un enfoque responsive, adaptándose correctamente a distintos tamaños de pantalla (mobile, tablet y desktop). Esto permite que cualquier usuario pueda acceder a la tienda desde cualquier dispositivo.
 
+Por otro lado la integración de SASS y Bootstrap para facilitar el mantenimiento de la página y comprender como funcionan estas tecnologias.
+
 Este proyecto puede expandirse más adelante con funcionalidades mas avanzandas como carrito de compras, login de usuarios y conexión a una base de datos.
 
 
