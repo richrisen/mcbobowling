@@ -9,14 +9,20 @@ body {
     @include flex-column; 
   }
   
-  main {
-    h1, h2, h3{
-      color: $title-color;
-    }
+header{
+    background-color: $secondary-bg;
+}
+
+ main {
     flex: 1;
   }
   
-  .btn{
+.btn{
     background-color: #275e5c;
     border: none;
+}
+
+
+h1, h2, h3{
+  color: $title-color;
 }

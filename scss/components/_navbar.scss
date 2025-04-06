@@ -2,8 +2,6 @@
 @use "../global/mixin" as*;
 
 .navbar {
-    background-color: $navbar-bg; 
-  
     .navbar-brand {
         @include responsive-font(1.6rem, 1.3rem);
       }
@@ -11,14 +9,6 @@
       img {
         width: 100px;
         height: auto;
-      }
-    }
-  
-    .navbar-nav {
-      font-size: 1.2rem;
-  
-      .nav-item {
-        padding: 0 1rem;
       }
     }
   

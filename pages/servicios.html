@@ -1,159 +1,212 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Favicon -->
-    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
 
-    <title>Mcbo Bowling | Servicios</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top border">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="../index.html">
-                <img class="me-3" src="../img/logo.png" alt="logo">
-                Mcbo Bowling
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <ul class="navbar-nav w-100 d-flex justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="conocenos.html">Cónocenos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactanos.html">Contacto</a>
-                    </li>
-                </ul>
+        <title>Mcbo Bowling | Servicios</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                    <img src="../img/logo.png" alt="Mcbo Bowling Logo" class="me-2">
+                    <span class="fw-bold">Mcbo Bowling</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="conocenos.html">Conócenos</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="contactanos.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Main Content -->
-    <main>
-        <section class="services-hero text-center py-5">
-            <h1 class="titulo_servicios">Nuestros Servicios</h1>
-            <p>En Mcbo Bowling nos especializamos en ayudarte a mejorar tu juego con servicios profesionales de alta calidad.</p>
-        </section>
+        <header class="py-5">
+            <div class="container text-center">
+                <h1>Nuestros Servicios</h1>
+                <p class="lead mt-3">En Mcbo Bowling nos especializamos en ayudarte a mejorar tu juego con servicios profesionales de alta calidad.</p>
+            </div>
+        </header>
+        <!-- Main Content -->
+        <main>
 
-        <section class="container services-section py-4">
-    <section class="container services-section py-4">
-        <div class="row mb-5 ">
-            <div class="col-md-6">
-                <img src="../img/asesoria.jpg" alt="Servicio de asesoría de bowling" class="img-fluid rounded shadow">
-            </div>
-            <div class="col-md-6 d-flex flex-column justify-content-center">
-                <h2 class="mb-3">Asesoría Personalizada</h2>
-                <p>Nuestros expertos en bowling analizarán tu técnica y estilo de juego para proporcionarte consejos personalizados. Te guiaremos en la selección del equipamiento ideal para mejorar tu rendimiento, considerando tus características físicas y nivel de juego.</p>
-                <ul>
-                    <li>Evaluación completa de técnica</li>
-                    <li>Recomendación personalizada de equipamiento</li>
-                    <li>Consejos de mantenimiento de equipos</li>
-                    <li>Estrategias para diferentes condiciones de pista</li>
-                </ul>
-                <button class="btn btn-primary align-self-start">Solicitar asesoría</button>
-            </div>
-        </div>
-        
-        <div class="row mb-5">
-            <div class="col-md-6">
-                <img src="../img/clases.jpg" alt="Servicio de asesoría de bowling" class="img-fluid rounded shadow">
-            </div>
-            <div class="col-md-6 d-flex flex-column justify-content-center">
-                <h2 class="mb-3">Clases de Bowling</h2>
-                <p>Ofrecemos clases para todos los niveles con instructores certificados que te enseñarán la técnica correcta, desde postura y agarre hasta estrategias avanzadas. Combinarás teoría con práctica en pista para mejorar rápidamente en un ambiente divertido y profesional.</p>
-                <ul>
-                    <li>Clases para principiantes: fundamentos básicos, postura, agarre y lanzamiento</li>
-                    <li>Clases intermedias: técnicas avanzadas, ajustes y correcciones</li>
-                    <li>Clases avanzadas: estrategias competitivas, lectura de pistas</li>
-                    <li>Clases personalizadas one-on-one o en grupos pequeños</li>
-                    <li>Programas para niños y jóvenes</li>
-                </ul>
-                <button class="btn btn-primary align-self-start">Solicitar Programa</button>
-            </div>
-        </div>
+            <section class="container services-section py-4">
+                <div class="row mb-5">
+                    <div class="col-lg-6">
+                        <img src="../img/asesoria.jpg" alt="Servicio de asesoría de bowling" class="img-fluid rounded shadow w-100">
+                    </div>
+                    <div class="col-lg-6  d-flex flex-column justify-content-start">
+                        <h2 class="mb-3">Asesoría Personalizada</h2>
+                        <p>Nuestros expertos en bowling analizarán tu técnica y estilo de juego para proporcionarte consejos personalizados. Te guiaremos en la selección del equipamiento ideal para mejorar tu rendimiento, considerando tus características físicas y nivel de juego.</p>
+                        <ul>
+                            <li>Evaluación completa de técnica</li>
+                            <li>Recomendación personalizada de equipamiento</li>
+                            <li>Consejos de mantenimiento de equipos</li>
+                            <li>Estrategias para diferentes condiciones de pista</li>
+                        </ul>
+                        <button class="btn btn-primary align-self-center">Solicitar asesoría</button>
+                    </div>
+                </div>
 
-        <div class="row mb-5">
-            <div class="col-md-6">
-                <img src="../img/perforacion.jpg" alt="Servicio de asesoría de bowling" class="img-fluid rounded shadow">
-            </div>
-            <div class="col-md-6 d-flex flex-column justify-content-center">
-                <h2 class="mb-3">Perforación profesional</h2>
-                <p>Nuestro servicio de perforación personalizada adapta tu bola de bowling a la anatomía exacta de tu mano. Utilizamos tecnología de punta para analizar tu estilo y crear una configuración que optimice comodidad, control y potencia en cada lanzamiento.</p>
-                <ul>
-                    <li>Perforación precisa adaptada a tu estilo de juego</li>
-                    <li>Reperforación y ajustes de bolas existentes</li>
-                    <li>Balanceo y personalización del peso</li>
-                    <li>Servicios de mantenimiento: pulido, limpieza profunda, renovación de superficie</li>
-                </ul>
-                <button class="btn btn-primary align-self-start">Solicitar Programa</button>
-            </div>
-        </div>
-        
-        <!-- Sección de precios -->
-        <div class="pricing-section text-center py-4 my-5 bg-light rounded shadow">
-            <h2 class="mb-4">Nuestras Tarifas</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Coaching Personalizado</h3>
+                <div class="row mb-5">
+                    <div class="col-lg-6">
+                        <img src="../img/clases.jpg" alt="Servicio de asesoría de bowling" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-start">
+                        <h2 class="mb-3">Clases de Bowling</h2>
+                        <p>Ofrecemos clases para todos los niveles con instructores certificados que te enseñarán la técnica correcta, desde postura y agarre hasta estrategias avanzadas. Combinarás teoría con práctica en pista para mejorar rápidamente en un ambiente divertido y profesional.</p>
+                        <ul>
+                            <li>Clases para principiantes: fundamentos básicos, postura, agarre y lanzamiento</li>
+                            <li>Clases intermedias: técnicas avanzadas, ajustes y correcciones</li>
+                            <li>Clases avanzadas: estrategias competitivas, lectura de pistas</li>
+                            <li>Clases personalizadas one-on-one o en grupos pequeños</li>
+                            <li>Programas para niños y jóvenes</li>
+                        </ul>
+                        <button class="btn btn-primary align-self-center">Solicitar Programa</button>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-lg-6">
+                        <img src="../img/perforacion.jpg" alt="Servicio de asesoría de bowling" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-start">
+                        <h2 class="mb-3">Perforación profesional</h2>
+                        <p>Nuestro servicio de perforación personalizada adapta tu bola de bowling a la anatomía exacta de tu mano. Utilizamos tecnología de punta para analizar tu estilo y crear una configuración que optimice comodidad, control y potencia en cada lanzamiento.</p>
+                        <ul>
+                            <li>Perforación precisa adaptada a tu estilo de juego</li>
+                            <li>Reperforación y ajustes de bolas existentes</li>
+                            <li>Balanceo y personalización del peso</li>
+                            <li>Servicios de mantenimiento: pulido, limpieza profunda, renovación de superficie</li>
+                        </ul>
+                        <button class="btn btn-primary align-self-center">Solicitar Programa</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQs -->
+            <section class="faqs-section py-4">
+                <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+                <div class="accordion container" id="accordionFaqs">
+                    <!-- Item 1 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false">
+                                ¿Qué necesito para tomar clases de bowling?
+                            </button>
+                        </h3>
+                        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                            <div class="accordion-body">
+                                Solo necesitas ropa cómoda y zapatos deportivos. Nosotros proporcionamos el equipamiento inicial (bolas y zapatos de bowling). Si ya tienes tu propio equipo, puedes traerlo.
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h4>$XX.XX</h4>
-                            <p>Sesión individual de 45 minutos</p>
-                            <button class="btn btn-primary">Reservar</button>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                                ¿Cuánto tiempo dura una sesión de asesoría personalizada?
+                            </button>
+                        </h3>
+                        <div id="faq2" class="accordion-collapse collapse " data-bs-parent="#accordionFaqs">
+                            <div class="accordion-body">
+                                Las sesiones duran aproximadamente <strong>45 minutos</strong>, pero pueden extenderse según tus necesidades y nivel de juego.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+                                ¿Pueden perforar cualquier bola de bowling?
+                            </button>
+                        </h3>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                            <div class="accordion-body">
+                                Sí, trabajamos con todo tipo de bolas, incluyendo bolas nuevas o usadas que necesiten ajustes. También ofrecemos servicios de <strong>mantenimiento</strong> (pulido, limpieza profunda) para prolongar su vida útil.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false">
+                                ¿Hay clases para niños o principiantes?
+                            </button>
+                        </h3>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                            <div class="accordion-body">
+                                ¡Claro! Tenemos programas especializados para <strong>niños (desde 5 años)</strong> y <strong>principiantes adultos</strong>, con instructores capacitados para enseñar en un ambiente divertido y sin presión.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false">
+                                ¿Cómo reservo un servicio?
+                            </button>
+                        </h3>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+                            <div class="accordion-body">
+                                Puedes reservar directamente desde nuestra página de <a href="contactanos.html" class="text-primary">Contacto</a>, llamarnos al <strong>+XX XXX XXX XXX</strong>, o visitarnos en persona para coordinar horarios.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- FAQs -->
-        <div class="faqs-section py-4">
-            <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
-            <div class="accordion" id="accordionFaqs">
-                <!-- Acordeón de preguntas frecuentes en proceso -->
-            </div>
-        </div>
-    </section>
-    
-    <!-- contacto -->
-    <section class="contact-section py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">¿Interesado en nuestros servicios?</h2>
-        </div>
-    </section>
-</main>
+            </section>
 
-<footer>
-    <div class="container-fluid bg-dark text-white text-center p-3">
-     <a href="http://instagram.com" target="_blank"><img src="../img/instagram.png" alt="logo de instagram"></a>
-     <a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" alt="logo de facebook"></a>
-     <p>Mcbo Bowling | Todos los derechos reservados &copy; 2025</p>
-    </div>
-  </footer>
+            <!-- Contacto -->
+            <section class="contact-section py-5">
+                <div class="container text-center">
+                    <h2 class="mb-4">¿Interesado en nuestros servicios?</h2>
+                    <p class="mb-4">Reserva una clase, asesoría o perforación. ¡Estamos aquí para ayudarte!</p>
+                    <a href="contactanos.html" class="btn btn-primary btn-lg px-4">Contáctanos</a>
+                </div>
+            </section>
+        </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid bg-dark text-white text-center p-3">
+                <a href="http://instagram.com" target="_blank"><img src="../img/instagram.png" alt="logo de instagram"></a>
+                <a href="http://facebook.com" target="_blank"><img src="../img/facebook.png" alt="logo de facebook"></a>
+                <p>Mcbo Bowling | Todos los derechos reservados &copy; 2025</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>

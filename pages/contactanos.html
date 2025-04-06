@@ -19,61 +19,52 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light  fixed-top border">
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center " href="../index.html">
-        <img class="me-3" src="../img/logo.png" alt="logo">
-          Mcbo Bowling
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-      <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav w-100 d-flex justify-content-center">
-          <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="conocenos.html">Cónocenos</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="servicios.html">Servicios</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link active" href="#">Contacto</a>
-      </li>
-      </ul>
-  </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../img/logo.png" alt="Mcbo Bowling Logo" class="me-2">
+                <span class="fw-bold">Mcbo Bowling</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="conocenos.html">Conócenos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container text-center py-5">
+            <h1 >¡Aquí puedes contactarnos!</h1>
+            <p class="lead">Si tienes alguna duda o necesitas más información ¡Estamos aquí para ayudarte!</p>
+            </div>
+    </header>
 
 <!-- Main Content -->
- <main>
-  <section class="text-center my-5">
-    
-     <!-- Información de Contacto -->
-     <div class="container mb-4 bg-light card">
-    <h2>Contacto</h2>
-    <p>¿Tienes alguna duda o necesitas más información? ¡Estamos aquí para ayudarte!</p>
+ <main class="main-contact container my-1">
+  
 
-   
-        <h3>Nuestra Dirección</h3>
-        <p>Av. Principal de Bowling, Maracaibo, Venezuela</p>
-
-        <h3>Teléfono</h3>
-        <p>+58 123-456-7890</p>
-
-        <h3>Correo Electrónico</h3>
-        <p>contacto@mcbobowling.com</p>
-    </div>
-
-    <!-- Formulario de Contacto -->
-    <div class="container card p-4 bg-light">
-        <h3>Envíanos un Mensaje</h3>
-        <form class="row g-3 justify-content-center">
+        <!-- Formulario de Contacto -->
+    <div class="container card p-4 my-5 text-center form-container">
+        <h2>Envíanos un Mensaje</h2>
+        <form class="row g-3 justify-content-center form-contact">
             <div class="col-md-6">
                 <label for="name" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
@@ -97,23 +88,19 @@
     </div>
 
     <!-- Mapa de Ubicación -->
-    <div class="mt-5">
+    <div class="text-center my-5">
         <h3>Encuéntranos Aquí</h3>
         <div class="container map-container">
-            <iframe 
+            <iframe class="border shadow"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093745!2d-71.64460768468046!3d10.64206709240427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e89996e1dba1b3f%3A0x19c1e123b478f39d!2sMcbo%20Bowling!5e0!3m2!1ses!2sve!4v1619627495828!5m2!1ses!2sve" 
                 width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
-
-  
-</section>
-
  </main>
 
    <!-- Redes Sociales -->
    <footer class="bg-dark d-flex flex-column justify-content-center align-items-center text-white p-3">
-    <h3>Síguenos en Nuestras Redes</h3>
+    <p class="fs-3">Síguenos en Nuestras Redes</p>
     <div>
     <a href="https://instagram.com" target="_blank"><img src="../img/instagram.png" alt="Instagram" class="me-3"></a>
     <a href="https://facebook.com" target="_blank"><img src="../img/facebook.png" alt="Facebook"></a>

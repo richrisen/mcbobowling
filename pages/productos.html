@@ -18,57 +18,63 @@
     </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light  fixed-top border">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center " href="../index.html">
-            <img class="me-3" src="../img/logo.png" alt="logo">
-            Mcbo Bowling
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../img/logo.png" alt="Mcbo Bowling Logo" class="me-2">
+                <span class="fw-bold">Mcbo Bowling</span>
             </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav w-100 d-flex justify-content-center">
-            <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="conocenos.html">Cónocenos</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active" href="#">Productos</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contactanos.html">Contacto</a>
-        </li>
-        </ul>
-    </div>
-    </div>
-</nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="conocenos.html">Conócenos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="contactanos.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5">
+        <div class="container text-center">
+            <h1 class="">Nuestros Productos</h1>
+            <p class="lead mt-3">
+            Explora nuestra selección de productos de alta calidad para jugadores de bowling de todos los niveles. Desde bolas profesionales hasta accesorios y ropa especializada, tenemos todo lo que necesitas para mejorar tu juego.
+            </p>   
+        </div>
+    </header>
 
 <!-- Main Content -->
     
 <main>
-
-    <h1 class="my-4 text-center">Nuestros Productos</h1>
-
     <!-- Sección de Bolas de Bowling -->
     
     <section class="text-center my-5">
     
     <!-- Categoría: Bolas de Bowling -->
     
-    <h2 class="mb-3">Bolas de Bowling</h2>
+    <h2 class="fs-1">Bolas de Bowling</h2>
     
-    <div class="d-flex justify-content-center align-items-start gap-3 flex-wrap mb-4">
+    <div class="d-flex justify-content-center align-items-start gap-3 flex-wrap my-5 py-3">
         
     <!-- Seccion de Bolas 1 -->
             
-        <div>
-            <h3>Destacadas</h3>
+        <div class="products-margin">
+            <h3>Bolas destacadas</h3>
             <div id="carouselBolas1" class="carousel slide">
                 <div class="carousel-inner rounded">
                     <div class="carousel-item active">
@@ -94,8 +100,8 @@
             </div>
     
             <!-- Seccion de Bolas 2 -->
-            <div>
-                <h3>Destacadas</h3>
+            <div class="products-margin">
+                <h3>Bolas de resina activa</h3>
                 <div id="carouselBolas2" class="carousel slide">
                     <div class="carousel-inner rounded">
                         <div class="carousel-item active">
@@ -122,8 +128,8 @@
         
     
             <!-- Seccion de Bolas 3-->
-            <div>
-                <h3>Destacadas</h3>
+            <div class="products-margin">
+                <h3>Bolas para principiante</h3>
                 <div id="carouselBolas3" class="carousel slide">
                     <div class="carousel-inner rounded">
                         <div class="carousel-item active">
@@ -154,14 +160,14 @@
     
         <!-- Categoría: Accesorios -->
         
-        <h2 class="mb-3">Accesorios</h2>
+        <h2 class="fs-1">Accesorios</h2>
         
-        <div class="d-flex justify-content-center align-items-start gap-3 flex-wrap mb-4">
+        <div class="d-flex justify-content-center align-items-start gap-3 flex-wrap my-5 py-3">
             
         <!-- Seccion de Accesorios 1-->
                 
-            <div>
-                <h3>Destacadas</h3>
+            <div class="products-margin">
+                <h3>Recomendados</h3>
                 <div id="carouselAccesorios1" class="carousel slide">
                     <div class="carousel-inner rounded">
                         <div class="carousel-item active">
@@ -187,8 +193,8 @@
                 </div>
         
                 <!-- Seccion de Accesrios 2 -->
-                <div>
-                    <h3>Destacadas</h3>
+                <div class="products-margin">
+                    <h3>Maletas de bowling</h3>
                     <div id="carouselAccesorios2" class="carousel slide">
                         <div class="carousel-inner rounded">
                             <div class="carousel-item active">
@@ -215,8 +221,8 @@
             
         
                 <!-- Seccion de Accesorios 3-->
-                <div>
-                    <h3>Destacadas</h3>
+                <div class="products-margin">
+                    <h3>Mantenimiento</h3>
                     <div id="carouselAccesorios3" class="carousel slide">
                         <div class="carousel-inner rounded">
                             <div class="carousel-item active">
@@ -247,14 +253,14 @@
     
             <!-- Categoría: Indumentaria-->
             
-            <h2 class="mb-3">Indumentaria</h2>
+            <h2 class="fs-1">Indumentaria</h2>
             
-            <div class="d-flex justify-content-center align-items-start gap-3 flex-wrap mb-4">
+            <div class="d-flex justify-content-center align-items-start gap-3 flex-wrap my-5 py-5">
                 
             <!-- Seccion Indumentaria 1-->
                     
-                <div>
-                    <h3>Destacadas</h3>
+                <div class="products-margin">
+                    <h3>Calzado</h3>
                     <div id="carouselRopa1" class="carousel slide">
                         <div class="carousel-inner rounded">
                             <div class="carousel-item active">
@@ -280,8 +286,8 @@
                     </div>
             
                     <!-- Seccion de Indumentaria 2 -->
-                    <div>
-                        <h3>Destacadas</h3>
+                    <div class="products-margin">
+                        <h3>Hoodies</h3>
                         <div id="carouselRopa2" class="carousel slide">
                             <div class="carousel-inner rounded">
                                 <div class="carousel-item active">
@@ -308,8 +314,8 @@
                 
             
                     <!-- Seccion de indumentaria 3-->
-                    <div>
-                        <h3>Destacadas</h3>
+                    <div class="products-margin">
+                        <h3>Chemises</h3>
                         <div id="carouselRopa3" class="carousel slide">
                             <div class="carousel-inner rounded">
                                 <div class="carousel-item active">
