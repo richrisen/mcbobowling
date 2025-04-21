@@ -1,16 +1,15 @@
 @use "../global/variables" as*;
 
 main {
-    .carousel {
-      width: 300px;
-      
-      &-item {
-        background-color: #adacb1;
-        }
-    }
+  .carousel {
+    width: 300px;
 
-    .products-margin{
-     margin-bottom: 2rem;
+    &-item {
+      background-color: #adacb1;
     }
+  }
+
+  .products-margin {
+    margin-bottom: 2rem;
+  }
 }
-

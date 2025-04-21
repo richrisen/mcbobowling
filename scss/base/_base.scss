@@ -2,27 +2,40 @@
 @use "../global/mixin" as*;
 
 body {
-    min-height: 100vh;
-    padding-top: 93px;
-    background-color: $primary-bg;
-    font-family: 'Roboto', sans-serif;
-    @include flex-column; 
-  }
-  
-header{
-    background-color: $secondary-bg;
+  min-height: 100vh;
+  padding-top: 93px;
+  background-color: $primary-bg;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  @include flex-column;
 }
 
- main {
-    flex: 1;
-  }
-  
-.btn{
-    background-color: #275e5c;
-    border: none;
+header {
+  background-color: $secondary-bg;
 }
 
+main {
+  flex: 1;
+}
 
-h1, h2, h3{
+.btn {
+  background-color: #275e5c;
+  border: none;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
   color: $title-color;
 }

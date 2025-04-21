@@ -1,27 +1,28 @@
-header{
-    .conocenos-container img{
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+header {
+    .conocenos-container img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
     }
 }
-.main-conocenos{
-    .mission-vision-container .card{
+
+.main-conocenos {
+    .mission-vision-container .card {
         background-color: #dfd6b5;
     }
-    
 
-    .team-section{
-        .team-member{
+
+    .team-section {
+        .team-member {
             padding: 0;
 
-            
-                & img{
-                    width: 100%;
-                    height: auto;
-                }
+
+            & img {
+                width: 100%;
+                height: auto;
+            }
         }
-        
+
     }
-    
+
 }
